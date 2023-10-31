@@ -38,6 +38,7 @@ export class ExploreComponent implements OnInit {
     'ESIC (Employees State Insurance Corporation) - Qualifications vary based on the post - Junior Engineer, Stenographer, UDC',
     'FCI (Food Corporation of India) - Graduate Degree in any discipline - Junior Engineer, Stenographer'
   ];
+  public count=0;
   
   ngOnInit(): void {
       

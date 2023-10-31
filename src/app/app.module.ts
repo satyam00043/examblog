@@ -6,11 +6,19 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ExploreComponent } from './explore/explore.component';
 import { RouterModule, Routes } from '@angular/router';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { HeaderComponent } from './dashboard/header/header.component';
+import { FooterComponent } from './dashboard/footer/footer.component';
+import { BookComponent } from './book/book.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ExploreComponent
+    ExploreComponent,
+    DashboardComponent,
+    HeaderComponent,
+    FooterComponent,
+    BookComponent
   ],
   imports: [
     BrowserModule,

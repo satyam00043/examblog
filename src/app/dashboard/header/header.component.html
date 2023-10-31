@@ -1,0 +1,24 @@
+<p>header works!</p>
+<header class="header">
+    <div class="logo">
+      <!-- Logo image goes here -->
+      <img src="logo.png" alt="Logo">
+    </div>
+    <div class="profile">
+      <div class="profile-info">
+        <span>Welcome, John Doe!</span>
+      </div>
+      <div class="profile-actions">
+        <a routerLink="/profile">My Profile</a>
+        <a routerLink="/signup">Signup</a>
+        <a routerLink="/login">Login</a>
+        <a (click)="logout()">Logout</a>
+      </div>
+    </div>
+    <nav class="prepare-section">
+      <a routerLink="/aptitude">Aptitude</a>
+      <a routerLink="/programming">Programming</a>
+      <a routerLink="/subjects">Subjects</a>
+    </nav>
+  </header>
+  
