@@ -25,3 +25,36 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Exam Prep App
+
+Exam Prep App is a web application designed to help users prepare for various exams. It provides study materials, practice questions, and exam-related information for a wide range of exams.
+
+## Features
+
+- User-friendly interface for browsing different types of exams.
+- Study materials, blogs, and articles related to exam preparation.
+- Practice questions and quizzes for self-assessment.
+- User authentication and personalized user experience.
+- Admin panel for managing study materials and user accounts.
+
+## Technologies Used
+
+- **Frontend**: Angular
+- **Backend**: Node.js, Express.js
+- **Database**: MySQL
+- **Authentication**: JSON Web Tokens (JWT)
+- **ORM for MySQL**: Sequelize
+- **Deployment**: Docker, NGINX (for production)
+
+## Prerequisites
+
+- Node.js installed. Download it from [nodejs.org](https://nodejs.org/).
+- MySQL database server installed. Download it from [mysql.com](https://www.mysql.com/).
+
+## Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone <repository-url>
+   cd exam-prep-app
