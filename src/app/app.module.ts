@@ -10,6 +10,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeaderComponent } from './dashboard/header/header.component';
 import { FooterComponent } from './dashboard/footer/footer.component';
 import { BookComponent } from './book/book.component';
+import { PostDashboardComponent } from './post/post-dashboard/post-dashboard.component';
+import { PostDetailsComponent } from './post/post-details/post-details.component';
+import { PostlistComponent } from './post/postlist/postlist.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +22,10 @@ import { BookComponent } from './book/book.component';
     DashboardComponent,
     HeaderComponent,
     FooterComponent,
-    BookComponent
+    BookComponent,
+    PostDashboardComponent,
+    PostDetailsComponent,
+    PostlistComponent
   ],
   imports: [
     BrowserModule,

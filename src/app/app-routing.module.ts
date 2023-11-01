@@ -5,6 +5,7 @@ import { ExploreComponent } from './explore/explore.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { BookComponent } from './book/book.component';
 import { HeaderComponent } from './dashboard/header/header.component';
+import { FooterComponent } from './dashboard/footer/footer.component';
 
 const routes: Routes = [{
   path:"",
@@ -21,8 +22,10 @@ const routes: Routes = [{
 },{
   path:'header',
   component:HeaderComponent
+},{
+  path:'tailer',
+  component:FooterComponent
 }
-
 ];
 
 @NgModule({
