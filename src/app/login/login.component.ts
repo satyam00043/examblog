@@ -14,8 +14,9 @@ export class LoginComponent {
   };
 
   onSignup() {
-    return "you ar signup";
+    console.log("you have successfully login");
     // Handle signup logic here
+    alert("you have successfully login");
   }
  
 }

@@ -1,6 +1,7 @@
 /* styles.css or your-component.styles.css */
 
 body {
+    margin-top: 20%;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
@@ -8,7 +9,7 @@ body {
   }
   
   .signup-form {
-    max-width: 300px;
+    max-width: 310px;
     margin: 0 auto;
     padding: 20px;
     background-color: white;
@@ -37,7 +38,8 @@ body {
   input[type="text"],
   input[type="email"],
   input[type="password"] {
-    width: 100%;
+    width: 95%;
+   
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;

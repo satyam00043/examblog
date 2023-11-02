@@ -5,6 +5,7 @@ import { ExploreComponent } from './explore/explore.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { BookComponent } from './book/book.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [{
   path:"",
@@ -21,6 +22,9 @@ const routes: Routes = [{
 },{
   path:'nav',
   component:NavbarComponent
+},{
+  path:'login',
+  component:LoginComponent
 }
 ];
 
