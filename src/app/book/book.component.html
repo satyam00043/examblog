@@ -1,2 +1,10 @@
-<p>book works!</p>
-<header></header>
+
+<div class="explore-container">
+    <h1>Books</h1>
+    <div class="exam-list">
+
+      <div *ngFor="let book of books  let count = index" class="exam-item">{{count+1}} .
+        {{  book  }}
+      </div>
+    </div>
+  </div>

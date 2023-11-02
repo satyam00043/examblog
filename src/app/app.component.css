@@ -1,0 +1,106 @@
+/* Navbar styles */
+.navbar {
+    background-color: #ffffff; /* Reddish color */
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Apply shadow effect: horizontal offset, vertical offset, blur radius, color */
+    
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-size: 34px;
+    font-weight: bold;
+  }
+  .header {
+    justify-content: space-between;
+    height: 60px;
+    background-color: #ffffff;
+    border: 1px solid #995757; /* Set the border style */
+    box-shadow:  100 10px rgba(0, 0, 0, 0.5); /* Apply shadow effect: horizontal offset, vertical offset, blur radius, color */
+    /* Additional styles for the element */
+   
+    background-color: #fff;
+  }
+  
+  h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #000000; /* Pitch black color */
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .bold-italic {
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  /* Dropdown styles */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: #d4d4e0; /* Reddish color */
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 8px 16px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c2c3e2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 20px;border-radius: 20px;
+    padding: 8px 16px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;border-radius: 20px;
+    padding: 8px 16px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  .navbar .auth-buttons button {
+    background-color:  #f2f2f2;
+    color: #000000;
+    border: none;
+    font-size: 18px;
+    font-family: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .navbar .auth-buttons button:hover {
+    background-color: #c89494;
+    color:black;
+  }
+  

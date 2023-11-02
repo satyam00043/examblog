@@ -1,15 +1,36 @@
-<!-- <mat-toolbar color="primary">
-    <mat-toolbar-row>
-      <span routerLink="/blog">ng-blog</span>
-      <span class="spacer"></span>
-      <div >
-              <span> username</span>
-              <button mat-raised-button color="accent" 
-              routerLink="/dashboard">New Post</button>
-              <button mat-button >Logout</button>
-      </div>
-      <ng-template #showLogin>
-        <button mat-button>Google Login</button>
-      </ng-template>
-    </mat-toolbar-row>
-</mat-toolbar> -->
+<div class="navbar">
+  <div class="logo">Your Logo</div>
+  <div class="dropdown">
+    <button class="dropbtn">Courses</button>
+    <div class="dropdown-content">
+      <a routerLink="/course/computer-science">Computer Science</a>
+      <a routerLink="/course/electronics-communication">Electronics & Communication</a>
+      <a routerLink="/course/mechanical">Mechanical</a>
+      <!-- Add more course options as needed -->
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Subjects</button>
+    <div class="dropdown-content">
+      <a routerLink="/subject/math">Math</a>
+      <a routerLink="/subject/physics">Physics</a>
+      <a routerLink="/subject/chemistry">Chemistry</a>
+      <!-- Add more subject options as needed -->
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Books</button>
+    <div class="dropdown-content">
+      <a routerLink="/book/science">Science Books</a>
+      <a routerLink="/book/history">History Books</a>
+      <a routerLink="/book/fiction">Fiction Books</a>
+      <!-- Add more book options as needed -->
+    </div>
+  </div>
+  <div class="auth-buttons">
+    <button routerLink="/login">Login</button>
+    <button routerLink="/signup">Sign Up</button>
+  </div>
+</div>
+
+
