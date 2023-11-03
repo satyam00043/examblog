@@ -1,48 +1,57 @@
-
 <div class="header">
-    <h1> <span class="bold-italic">  The </span>  <span class="italic">  illiterate  </span> <span class="bold">  of the  </span> <span class="italic"> 21st century</span> <span class="bold">will not be those who</span> <span class="italic">cannot read and write,</span> <span class="bold">but those who</span> <span class="italic">cannot learn, unlearn, and relearn."</span></h1>
-  </div>
-  
+  <h1>
+    <span class="bold-italic"> The </span>
+    <span class="italic"> illiterate </span> <span class="bold"> of the </span>
+    <span class="italic"> 21st century</span>
+    <span class="bold">will not be those who</span>
+    <span class="italic">cannot read and write,</span>
+    <span class="bold">but those who</span>
+    <span class="italic">cannot learn, unlearn, and relearn."</span>
+  </h1>
+</div>
+
 <div class="navbar">
-    <div class="logo">LetsLearn</div>
-    <div class="dropdown">
-        <button routerLink="/" class="dropbtn">Home</button>
-
-        </div>
-
-    <div class="dropdown">
-      <button class="dropbtn">Courses</button>
-      <div class="dropdown-content">
-        <a routerLink="/course/computer-science">Computer Science</a>
-        <a routerLink="/course/electronics-communication">Electronics & Communication</a>
-        <a routerLink="/course/mechanical">Mechanical</a>
-        <!-- Add more course options as needed -->
-      </div>
-    </div>
-   
-    <div class="dropdown">
-      <button class="dropbtn">Subjects</button>
-      <div class="dropdown-content">
-        <a routerLink="/subject/math">Math</a>
-        <a routerLink="/subject/physics">Physics</a>
-        <a routerLink="/subject/chemistry">Chemistry</a>
-        <!-- Add more subject options as needed -->
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">Books</button>
-      <div class="dropdown-content">
-        <a routerLink="/book/science">Science Books</a>
-        <a routerLink="/book/history">History Books</a>
-        <a routerLink="/book">Fiction Books</a>
-        <!-- Add more book options as needed -->
-      </div>
-    </div>
-    <div class="auth-buttons">
-      <button routerLink="/login">Login /Sign Up</button>
-   </div>
+  <div class="logo">LetsLearn</div>
+  <div class="dropdown">
+    <button routerLink="/" class="dropbtn">Home</button>
   </div>
-  
-  
-  
+
+  <div class="dropdown">
+    <button class="dropbtn">Courses</button>
+    <div class="dropdown-content">
+      <a routerLink="/course/computer-science">Computer Science</a>
+      <a routerLink="/course/electronics-communication"
+        >Electronics & Communication</a
+      >
+      <a routerLink="/course/mechanical">Mechanical</a>
+      <!-- Add more course options as needed -->
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Subjects</button>
+    <div class="dropdown-content">
+      <a routerLink="/subject/math">Engineering Math</a>
+      <a routerLink="/subject/computer-architecture">Computer Architecture</a>
+      <a routerLink="/subject/computer-organization">Computer Organisation</a>
+      <a routerLink="/subject/compiler-design">Compiler Design</a>
+      <a routerLink="/subject/data-structures">Data Structures</a>
+
+      <!-- Add more subject options as needed -->
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Books</button>
+    <div class="dropdown-content">
+      <a routerLink="listofbook">computer Science Books</a>
+      <a routerLink="/book/history">History Books</a>
+      <a routerLink="/book">Fiction Books</a>
+      <!-- Add more book options as needed -->
+    </div>
+  </div>
+  <div class="auth-buttons">
+    <button routerLink="/login">Login /Sign Up</button>
+  </div>
+</div>
+
 <router-outlet></router-outlet>

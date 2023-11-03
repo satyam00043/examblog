@@ -6,6 +6,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { BookComponent } from './book/book.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
+import { PdfViewerComponent } from './pdf-viewer/pdf-viewer.component';
+import { book } from './book/book';
 
 const routes: Routes = [{
   path:"",
@@ -25,6 +27,12 @@ const routes: Routes = [{
 },{
   path:'login',
   component:LoginComponent
+},
+{
+  path:'subject/:subject',component:PdfViewerComponent
+},{
+  path:'listofbook',
+  component:book
 }
 ];
 

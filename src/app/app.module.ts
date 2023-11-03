@@ -7,11 +7,10 @@ import { ExploreComponent } from './explore/explore.component';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { BookComponent } from './book/book.component';
-import { PostDashboardComponent } from './post/post-dashboard/post-dashboard.component';
-import { PostDetailsComponent } from './post/post-details/post-details.component';
-import { PostlistComponent } from './post/postlist/postlist.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
+import { PdfViewerComponent } from './pdf-viewer/pdf-viewer.component';
+import { book } from './book/book';
 
 @NgModule({
   declarations: [
@@ -21,9 +20,9 @@ import { FormsModule } from '@angular/forms';
     DashboardComponent,
    
     BookComponent,
-    PostDashboardComponent,
-    PostDetailsComponent,
-    PostlistComponent,
+    PdfViewerComponent,
+    book,
+   
     LoginComponent
   ],
   imports: [
