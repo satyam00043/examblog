@@ -14,7 +14,7 @@ export class BookService {
     return new Promise((resolve, reject) => {
       let apiURL = `${this.apiRoot}?q=inauthor:"${author}"&langRestrict=en`;
       this.http.get(apiURL).toPromise().then((data: any) => {
-        let results : Book[] = data.items.map(item => {
+        let results : Book[] = data.items.map((item: { volumeInfo: { title: any; authors: any; imageLinks: { thumbnail: any; }; }; }) => {
           return new Book(
             this.getSafe(() => item.volumeInfo.title),
             this.getSafe(() => item.volumeInfo.authors),
@@ -30,7 +30,8 @@ export class BookService {
     try {
       return f();
     } catch (error) {
-      return undefined;
+      return 
+     
     }
   }
 
